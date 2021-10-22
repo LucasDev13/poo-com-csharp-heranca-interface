@@ -7,33 +7,31 @@ namespace poo_heranca_interface
     {
         static void Main(string[] args)
         {
-            var gerenciador = new GerenciadorBonificacao();
+            CalcularBonificacao();
+        }
 
-            var funcionarioCarlos = new Funcionario(2000, "000.000.000-00");
+        public static void CalcularBonificacao(){
+            var gerenciarBonificacao = new GerenciadorBonificacao();
 
-            funcionarioCarlos.Nome = "Carlos";
+            var pedro = new Designer(3000, "000.000.000-00");
+            pedro.Nome = "Pedro";
 
-            funcionarioCarlos.AumentarSalario();
-            Console.WriteLine("Novo salario do Carlos: " + funcionarioCarlos.Salario);
+            var roberta = new Diretor(5000, "111.111.111-11");
+            roberta.Nome = "Roberta";
 
-            var diretorRoberta = new Diretor(5000, "111.111.111-11");
-            diretorRoberta.Nome = "Roberta";
+            var igor = new Auxiliar(2000, "222.222.222-22");
+            igor.Nome = "Igor";
 
-            diretorRoberta.AumentarSalario();
-            Console.WriteLine("Novo salario do Roberta: " + diretorRoberta.Salario);
+            var camila = new GerenteDeConta(4000, "333.333.333-33");
+            camila.Nome = "Camila";
 
-            gerenciador.Registrar(funcionarioCarlos);
+            gerenciarBonificacao.Registrar(pedro);
+            gerenciarBonificacao.Registrar(roberta);
+            gerenciarBonificacao.Registrar(igor);
+            gerenciarBonificacao.Registrar(camila);
 
-            gerenciador.Registrar(diretorRoberta);
-
-            Console.WriteLine(funcionarioCarlos.Nome);
-            Console.WriteLine(funcionarioCarlos.GetBonificacao());
-
-            Console.WriteLine(diretorRoberta.Nome);
-            Console.WriteLine(diretorRoberta.GetBonificacao());
-
-            Console.WriteLine("Total de bonificações: " + gerenciador.GetTotalBonificacao());
-
+            Console.WriteLine("Total de bonificações do mês: " 
+            + gerenciarBonificacao.GetTotalBonificacao());
         }
     }
 }

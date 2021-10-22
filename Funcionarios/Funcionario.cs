@@ -1,6 +1,6 @@
 namespace poo_heranca_interface.Funcionarios
 {
-    public class Funcionario
+    public abstract class Funcionario
     {
         //propriedade staytica compartilhada com todos os objetos.
         public static int TotalDeFuncionarios { get; private set; }

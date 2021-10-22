@@ -5,18 +5,18 @@ using System.Threading.Tasks;
 
 namespace poo_heranca_interface.Funcionarios
 {
-    public class Diretor : Funcionario{
+    public class Auxiliar : Funcionario{
 
-        public Diretor(double salario, string cpf):base(salario, cpf){
+        public Auxiliar(double salario, string cpf):base(salario, cpf){
         }
         //Override do método GetBonificação
         public override double GetBonificacao(){
-            return Salario * 0.50;
+            return Salario * 0.2;
         }
 
         public override void AumentarSalario()
         {
-            Salario *= 1.15;
+            Salario *= 1.1;
         }
     }
 }
