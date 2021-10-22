@@ -1,0 +1,16 @@
+/home/lucasdev/Documentos/workspace-dotnet/poo-heranca-interface/obj/Debug/net5.0/poo-heranca-interface.csproj.AssemblyReference.cache
+/home/lucasdev/Documentos/workspace-dotnet/poo-heranca-interface/obj/Debug/net5.0/poo-heranca-interface.GeneratedMSBuildEditorConfig.editorconfig
+/home/lucasdev/Documentos/workspace-dotnet/poo-heranca-interface/obj/Debug/net5.0/poo-heranca-interface.AssemblyInfoInputs.cache
+/home/lucasdev/Documentos/workspace-dotnet/poo-heranca-interface/obj/Debug/net5.0/poo-heranca-interface.AssemblyInfo.cs
+/home/lucasdev/Documentos/workspace-dotnet/poo-heranca-interface/obj/Debug/net5.0/poo-heranca-interface.csproj.CoreCompileInputs.cache
+/home/lucasdev/Documentos/workspace-dotnet/poo-heranca-interface/bin/Debug/net5.0/poo-heranca-interface
+/home/lucasdev/Documentos/workspace-dotnet/poo-heranca-interface/bin/Debug/net5.0/poo-heranca-interface.deps.json
+/home/lucasdev/Documentos/workspace-dotnet/poo-heranca-interface/bin/Debug/net5.0/poo-heranca-interface.runtimeconfig.json
+/home/lucasdev/Documentos/workspace-dotnet/poo-heranca-interface/bin/Debug/net5.0/poo-heranca-interface.runtimeconfig.dev.json
+/home/lucasdev/Documentos/workspace-dotnet/poo-heranca-interface/bin/Debug/net5.0/poo-heranca-interface.dll
+/home/lucasdev/Documentos/workspace-dotnet/poo-heranca-interface/bin/Debug/net5.0/ref/poo-heranca-interface.dll
+/home/lucasdev/Documentos/workspace-dotnet/poo-heranca-interface/bin/Debug/net5.0/poo-heranca-interface.pdb
+/home/lucasdev/Documentos/workspace-dotnet/poo-heranca-interface/obj/Debug/net5.0/poo-heranca-interface.dll
+/home/lucasdev/Documentos/workspace-dotnet/poo-heranca-interface/obj/Debug/net5.0/ref/poo-heranca-interface.dll
+/home/lucasdev/Documentos/workspace-dotnet/poo-heranca-interface/obj/Debug/net5.0/poo-heranca-interface.pdb
+/home/lucasdev/Documentos/workspace-dotnet/poo-heranca-interface/obj/Debug/net5.0/poo-heranca-interface.genruntimeconfig.cache
