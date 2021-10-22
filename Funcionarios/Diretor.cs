@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 namespace poo_heranca_interface.Funcionarios
 {
     public class Diretor : Funcionario{
-        public double GetBonificacao(){
+        public override double GetBonificacao(){
            return Salario;
         }
     }
