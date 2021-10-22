@@ -9,15 +9,13 @@ namespace poo_heranca_interface
         {
             var gerenciador = new GerenciadorBonificacao();
 
-            var funcionarioCarlos = new Funcionario();
+            var funcionarioCarlos = new Funcionario("000.000.000-00");
 
             funcionarioCarlos.Nome = "Carlos";
-            funcionarioCarlos.CPF = "000.000.000-00";
             funcionarioCarlos.Salario = 2000;
 
-            var diretorRoberta = new Diretor();
+            var diretorRoberta = new Diretor("111.111.111-11");
             diretorRoberta.Nome = "Roberta";
-            diretorRoberta.CPF = "111.111.111-11";
             diretorRoberta.Salario = 5000;
 
 

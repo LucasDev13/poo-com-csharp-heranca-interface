@@ -16,6 +16,7 @@ namespace poo_heranca_interface
         }
         public double GetTotalBonificacao(){
             return _totalBonificacao;
-        }
+        }                               
+        
     }
 }
