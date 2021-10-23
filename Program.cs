@@ -25,10 +25,14 @@ namespace poo_heranca_interface
             var camila = new GerenteDeConta(4000, "333.333.333-33");
             camila.Nome = "Camila";
 
+            var lucas = new Desenvolvedor(5000, "444.444.444-44");
+            lucas.Nome = "Lucas";
+
             gerenciarBonificacao.Registrar(pedro);
             gerenciarBonificacao.Registrar(roberta);
             gerenciarBonificacao.Registrar(igor);
             gerenciarBonificacao.Registrar(camila);
+            gerenciarBonificacao.Registrar(lucas);
 
             Console.WriteLine("Total de bonificações do mês: " 
             + gerenciarBonificacao.GetTotalBonificacao());
