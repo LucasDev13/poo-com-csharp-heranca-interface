@@ -1,4 +1,5 @@
 ﻿using System;
+using poo_heranca_interface.Comercial;
 using poo_heranca_interface.Funcionarios;
 using poo_heranca_interface.Funcionarios.Sistema;
 
@@ -30,8 +31,14 @@ namespace poo_heranca_interface
             var lucas = new Desenvolvedor(5000, "444.444.444-44");
             lucas.Nome = "Lucas";
 
+            var parceiroComercial = new ParceiroComercial();
+            parceiroComercial.Senha = "123456";
+
             roberta.Senha = "123";
             camila.Senha = "1234";
+
+            sistemaInterno.Logar(parceiroComercial, "123456");
+
             sistemaInterno.Logar(roberta, "123");
             sistemaInterno.Logar(camila, "1234");
             

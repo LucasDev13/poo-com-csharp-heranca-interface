@@ -6,7 +6,7 @@ using poo_heranca_interface.Sistema;
 
 namespace poo_heranca_interface.Funcionarios
 {
-    public class Diretor : Autenticavel{
+    public class Diretor : FuncionarioAutenticavel{
 
         public Diretor(double salario, string cpf):base(salario, cpf){
         }
